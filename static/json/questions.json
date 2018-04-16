@@ -1,0 +1,129 @@
+[
+    {
+        "code": "Q1001",
+        "quiz": [
+            {
+                "id": 1,
+                "question": "Which is not a JS Framework",
+                "options":[
+                    {
+                        "id": "1",
+                        "value": "VUE"
+                    },
+                    {
+                        "id": "2",
+                        "value": "Angular"
+                    },
+                    {
+                        "id": "3",
+                        "value": "HTML"
+                    },
+                    {
+                        "id": "4",
+                        "value": "React"
+                    }
+                ],
+                "answer": 3,
+                "timer": 30,
+                "point": 10
+            },
+            {
+                "id": 2,
+                "question" :"Choose the correct HTML element for the largest heading?",
+                "options" :[
+                    {
+                        "id": "1",
+                        "value": "<head>"
+                    },
+        
+                    {
+                        "id" :"2",
+                        "value" :"<heading>"
+                    },
+                    {
+                        "id" :"3",
+                        "value" :"<h1>"
+                    },
+                    {
+                        "id" :"4",
+                        "value" :"<h6>"
+                    }
+                ],
+                "answer" :3,
+                "timer": 10,
+                "point":5
+            },
+            {
+                "id" :3,
+                "question" :" Which character is used to indicate an end tag?",
+                "options":[
+                    {
+                        "id": "1",
+                        "value": " *"
+                    },
+                    {
+                        "id" :"2",
+                        "value" :"/"
+                    },
+                    {
+                        "id" :"3",
+                        "value" : "~"
+                    },
+                    {
+                        "id" :"4",
+                        "value" :"<"
+                    }         
+                ],
+                "answer" :2,
+                "timer": 30,
+                "point": 20
+            },
+            {
+                "id": 4,
+                "question" :"Who is making the Web standards?",
+                "options":[
+                    {
+                    "id" :"1",
+                    "value" :" Microsoft"
+                    },
+                    {
+                        "id" :"2",
+                        "value" :"Mozilla"
+                    },
+                    {
+                        "id" :"3",
+                        "value" : "The World Wide Web Consortium"
+                    },
+                    {
+                        "id" :"4",
+                        "value" :"Google"
+                    }
+                ],
+                "answer" :3,
+                "timer" :30,
+                "point": 30
+            },
+            {
+                "id" :5,
+                "question" :"How can you make a bulleted list?",
+                "options" :[
+                    {
+                        "id": "1",
+                        "value": " <list>"
+                    },
+                    {
+                        "id" :"2",
+                        "value":  "<ul>"
+                    },
+                    {
+                        "id" :"3",
+                        "value" :"<ol>"
+                    }
+                ],
+                "answer": 2,
+                "timer":10,
+                "point": 15
+            }
+        ]
+    }
+]
