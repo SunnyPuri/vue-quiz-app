@@ -6,7 +6,7 @@
             <input type="text" v-model="name" class="form-control reset-border" placeholder="Enter Name">
         </div>
         <div class="col-12" style="padding-top: 10px;">
-            <input type="text" v-model="code" class="form-control reset-border" placeholder="Enter Code">
+            <input type="text" v-model="code" class="form-control reset-border" placeholder="Enter Code (Q1001)">
         </div>
         <div class="col-12">
             <div style="text-align: center;color: red;" v-if="isIncorrectCode">Incorrect Code</div>
