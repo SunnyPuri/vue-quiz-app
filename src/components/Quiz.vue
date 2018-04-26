@@ -18,14 +18,14 @@
           <div class="quiz">
               <div>
                   <div class="col-12 center">
-                    <div class="col-10 question">
+                    <div class="col-md-10 question">
                         {{game.question}}
                     </div>
                   </div>
 
                   <div class="col-md-12 center">
-                    <div class="row col-12 options">
-                       <div class="option" v-for="(option, index) in game.options" :key="index" @click="submitAnswer(option.id)" :class="[(option.id == currentId) ? (option.id == correctId) ? 'correct': 'incorrect' : '',(option.id == correctId) ? 'correct': '']">
+                    <div class="row col-md-12 options">
+                       <div class="col-md-5 option" v-for="(option, index) in game.options" :key="index" @click="submitAnswer(option.id)" :class="[(option.id == currentId) ? (option.id == correctId) ? 'correct': 'incorrect' : '',(option.id == correctId) ? 'correct': '']">
                            {{option.value}}
                        </div>
                     </div>
@@ -263,16 +263,17 @@ export default {
     .option{
         border: 1px solid #ccc;
         border-radius: 10px;
-        height: 40px;
+        min-height: 40px;
         line-height: 35px;
-        width: 45%;
         margin: 10px;
         padding: 0px 10px;
         cursor: pointer;
+        word-wrap: break-word;
     }
 
     .question{
         font-weight: 600;
         margin-bottom: 30px;
+        text-align: center;
     }
 </style>
